@@ -1,5 +1,8 @@
 This package contains Haskell bindings to libSDL >= 1.2.8.
 
+Pre-requisites (Ubuntu):
+  apt-get install libsdl1.2-dev
+
 Sandboxed installation (recommended):
   git clone https://github.com/keera-studios/hssdl
   cd hssdl
