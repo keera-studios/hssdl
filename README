@@ -1,5 +1,11 @@
 This package contains Haskell bindings to libSDL >= 1.2.8.
 
+Sandboxed installation (recommended):
+  git clone https://github.com/keera-studios/hssdl
+  cd hssdl
+  cabal sandbox init
+  cabal install
+
 Global installation:
   runhaskell Setup.lhs configure
   runhaskell Setup.lhs build
